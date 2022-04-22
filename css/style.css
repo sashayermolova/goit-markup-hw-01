@@ -1,0 +1,147 @@
+:root {
+    ----primary-font-family: 'Roboto', sans-serif;
+    ---secondary-font-family: 'Raleway', sans-serif;
+    ---primary-text-color: #212121;
+    ---secondary-text-color: #757575;
+    ---interactive-element-colors: #2196F3;
+}
+
+/*----------- COMMON COMPONENTS OF PROJECTS ----------- */
+
+body {
+    font-family: var(---primary-font-family);
+    color: var(---primary-text-color);
+}
+
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: var(---secondary-font-family); 
+    font-style: Bold;
+    font-size: 26px; 
+    line-height: 1.19;
+    color: #000000;
+}
+
+.logo-part {
+    color: var(---interactive-element-colors);
+}
+
+.menu-link { 
+    font-size: 14px; 
+    line-height: 1.14;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(---interactive-element-colors);
+}
+
+.contact-main {
+    font-size: 14px; 
+    line-height: 1.14;
+    color: var(---secondary-text-color);
+}
+.contact-main:hover,
+.contact-main:focus {
+    color: var(---interactive-element-colors);
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    /*color: #FFFFFF;*/
+}
+
+.contact-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    /*color: rgba(255, 255, 255, 0.6);*/
+}
+
+/*-------------- STUDIO ---------- */
+.page-title {
+    font-size: 44px;
+    line-height: 1.5;
+    /*color: #FFFFFF;*/
+}
+
+.modal-btn {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.about-quality-title {
+    font-size: 14px; 
+    line-height: 1.14;
+}
+
+.about-quality-description {
+    font-size: 14px; 
+    line-height: 1.71;
+    color: var(---secondary-text-color);
+}
+
+.title-section { 
+    font-size: 36px; 
+    line-height: 1.16;
+}
+
+.employee { 
+    font-size: 16px; 
+    line-height: 1.18;
+}
+
+.employee-position { 
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(---secondary-text-color);
+}
+
+.address { 
+    font-size: 14px;
+    line-height: 1.71;
+    /*color: #FFFFFF;*/
+}
+
+.contact-footer { 
+    font-size: 14px; 
+    line-height: 1.71;
+    /*color: rgba(255, 255, 255, 0.6);*/
+}
+
+/*----------- PAGE PORTFOLIO -----------*/
+.pages-buttons { 
+    font-size: 16px; 
+    line-height: 1.62;
+    color: var(---primary-text-color);
+    cursor: pointer;
+}
+
+.pages-buttons:hover,
+.pages-buttons:focus {
+    color: #FFFFFF;
+    background-color: var(---interactive-element-colors);
+}
+
+.name-project {  
+    font-size: 18px; 
+    line-height: 2;
+}
+
+.type-project {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(---secondary-text-color);
+}
