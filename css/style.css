@@ -9,7 +9,7 @@
 /*----------- COMMON COMPONENTS OF PROJECTS ----------- */
 
 body {
-    font-family: var(---primary-font-family);
+    font-family: var(----primary-font-family);
     color: var(---primary-text-color);
 }
 
@@ -25,10 +25,10 @@ body {
 
 .logo {
     font-family: var(---secondary-font-family); 
-    font-style: Bold;
+    font-weight: 700;
     font-size: 26px; 
     line-height: 1.19;
-    color: #000000;
+    color: var(---primary-text-color);
 }
 
 .logo-part {
@@ -38,6 +38,9 @@ body {
 .menu-link { 
     font-size: 14px; 
     line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(---primary-text-color);
 }
 
 .menu-link:hover,
@@ -49,76 +52,100 @@ body {
     font-size: 14px; 
     line-height: 1.14;
     color: var(---secondary-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 .contact-main:hover,
 .contact-main:focus {
     color: var(---interactive-element-colors);
 }
 
+.footer {
+    background-color: #2F303A;;
+}
+
 .address {
+    font-weight: 400;
     font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.71;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .contact-footer {
     font-size: 14px;
     line-height: 1.71;
-    /*color: rgba(255, 255, 255, 0.6);*/
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /*-------------- STUDIO ---------- */
+.hero {
+    background-color: #2F303A;;
+}
 .page-title {
+    font-weight: 900;
     font-size: 44px;
-    line-height: 1.5;
-    /*color: #FFFFFF;*/
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .modal-btn {
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.88;
     color: #FFFFFF;
     background-color: #2196F3;
     cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;  
 }
 
 .about-quality-title {
     font-size: 14px; 
     line-height: 1.14;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .about-quality-description {
     font-size: 14px; 
     line-height: 1.71;
     color: var(---secondary-text-color);
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .title-section { 
     font-size: 36px; 
     line-height: 1.16;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .employee { 
     font-size: 16px; 
     line-height: 1.18;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .employee-position { 
     font-size: 16px;
     line-height: 1.18;
     color: var(---secondary-text-color);
-}
-
-.address { 
-    font-size: 14px;
-    line-height: 1.71;
-    /*color: #FFFFFF;*/
-}
-
-.contact-footer { 
-    font-size: 14px; 
-    line-height: 1.71;
-    /*color: rgba(255, 255, 255, 0.6);*/
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /*----------- PAGE PORTFOLIO -----------*/
@@ -127,6 +154,9 @@ body {
     line-height: 1.62;
     color: var(---primary-text-color);
     cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .pages-buttons:hover,
@@ -138,10 +168,14 @@ body {
 .name-project {  
     font-size: 18px; 
     line-height: 2;
+    font-weight: 700;
+    letter-spacing: 0.06em;
 }
 
 .type-project {
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.88;
     color: var(---secondary-text-color);
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
